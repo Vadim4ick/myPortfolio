@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20220612215336">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__wrapper">
+				<div class="header__container">
+					<div class="header__body">
+						<a href="#home" class="header__logo">
+							<img src="img/logo.svg" alt="" />
+						</a>
+						<div class="header__menu menu">
+							<nav class="menu__body">
+								<ul class="menu__list">
+									<li class="menu__item">
+										<a href="#home" class="menu__link _active">HOME</a>
+									</li>
+									<li class="menu__item">
+										<a href="#selWorks" class="menu__link"> Work </a>
+									</li>
+									<li class="menu__item">
+										<a href="#about" class="menu__link"> About </a>
+									</li>
+									<li class="menu__item">
+										<a href="/work.html" class="menu__link"> All Work </a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+						<button type="button" class="menu__icon icon-menu">
+							<span></span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<main class="page">
+			<section id="home" class="page__main main-page observe">
+				<canvas id="stars"></canvas>
+				<div class="main-page__container">
+					<div class="main-page__title">
+						<h1>
+							Hi my name is <span id="flashing">Vadim Firulev,</span> I
+							specialize in web development
+						</h1>
+					</div>
+					<a href="#selWorks" class="main-page__arrow">
+						<span></span>
+						<span></span>
+						<span></span>
+					</a>
+				</div>
+			</section>
+			<section class="page__proficient proficient-page">
+				<div class="knows-proficient__container">
+					<div id="test" class="proficient-page__title">
+						<h2>I am perfectly <span>perfectly</span> proficient:</h2>
+					</div>
+					<div class="proficient-page__knows knows-proficient">
+						<div class="knows-proficient__body">
+							<div class="knows-proficient__item">
+								<div class="knows-proficient__img">
+									<img src="img/knows/html.svg" alt="" />
+								</div>
+								<div class="knows-proficient__text">HTML5</div>
+							</div>
+							<div class="knows-proficient__item">
+								<div class="knows-proficient__img">
+									<img src="img/knows/css.svg" alt="" />
+								</div>
+								<div class="knows-proficient__text">CSS3</div>
+							</div>
+							<div class="knows-proficient__item">
+								<div class="knows-proficient__img">
+									<img src="img/knows/sass.svg" alt="" />
+								</div>
+								<div class="knows-proficient__text">SASS</div>
+							</div>
+							<div class="knows-proficient__item">
+								<div class="knows-proficient__img">
+									<img src="img/knows/js.svg" alt="" />
+								</div>
+								<div class="knows-proficient__text">JS</div>
+							</div>
+							<div class="knows-proficient__item">
+								<div class="knows-proficient__img">
+									<img src="img/knows/gulp.svg" alt="" />
+								</div>
+								<div class="knows-proficient__text">GULP</div>
+							</div>
+							<div class="knows-proficient__item">
+								<div class="knows-proficient__img">
+									<img src="img/knows/figma.svg" alt="" />
+								</div>
+								<div class="knows-proficient__text">FIGMA</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="selWorks" class="page__works works-page observe">
+				<div class="works-page__container">
+					<div class="works-page__title">
+						<h2>
+							Selected
+							<span style="--i: 1">W</span>
+							<span style="--i: 2">o</span>
+							<span style="--i: 3">r</span>
+							<span style="--i: 4">k</span>
+							<span style="--i: 5">s</span>
+						</h2>
+					</div>
+					<div id="selected" class="works-page__content content-works">
+						<div class="content-works__item">
+							<div class="content-works__image-ibg">
+								<a href=""><picture><source srcset="img/selected-works/1.webp" type="image/webp"><img src="img/selected-works/1.jpg" alt="" /></picture></a>
+							</div>
+							<div class="content-works__info">
+								<p>Real estate Template</p>
+								<h3>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+									Ultrices lorem non feugiat egestas amet.
+								</h3>
+								<a href="" class="content-works__btn"> View work </a>
+							</div>
+						</div>
+						<div class="content-works__item">
+							<div class="content-works__image-ibg">
+								<a href=""><picture><source srcset="img/selected-works/2.webp" type="image/webp"><img src="img/selected-works/2.jpg" alt="" /></picture></a>
+							</div>
+
+							<div class="content-works__info">
+								<p>Plant identification app</p>
+								<h3>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+									Ultrices lorem non feugiat egestas amet.
+								</h3>
+								<a href="" class="content-works__btn"> View work </a>
+							</div>
+						</div>
+						<div class="content-works__item">
+							<div class="content-works__image-ibg">
+								<a href=""><picture><source srcset="img/selected-works/3.webp" type="image/webp"><img src="img/selected-works/3.jpg" alt="" /></picture></a>
+							</div>
+
+							<div class="content-works__info">
+								<p>Smart Home App</p>
+								<h3>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+									Ultrices lorem non feugiat egestas amet.
+								</h3>
+								<a href="" class="content-works__btn"> View work </a>
+							</div>
+						</div>
+						<div class="content-works__item">
+							<div class="content-works__image-ibg">
+								<a href=""><picture><source srcset="img/selected-works/4.webp" type="image/webp"><img src="img/selected-works/4.jpg" alt="" /></picture></a>
+							</div>
+
+							<div class="content-works__info">
+								<p>Logo Animation</p>
+								<h3>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+									Ultrices lorem non feugiat egestas amet.
+								</h3>
+								<a href="" class="content-works__btn"> View work </a>
+							</div>
+						</div>
+					</div>
+					<div class="works-page__btn">
+						<a href="work.html" class="button_hola"><span>View all works</span></a>
+					</div>
+				</div>
+			</section>
+			<section id="about" class="page__about about-page observe">
+				<div class="about-page__container">
+					<div class="about-page__body">
+						<div class="about-page__content">
+							<div class="about-page__title">A bit about me</div>
+							<div class="about-page__info">
+								<h3>
+									I am a web developer who is passionate about creating
+									beautiful and creative websites.
+									<span>
+										In addition to websites, in my free time I like to listen
+										to music, play and travel.</span>
+								</h3>
+							</div>
+						</div>
+						<div class="about-page__gallery">
+							<div class="about-page__image-ibg">
+								<picture><source srcset="img/about/1.webp" type="image/webp"><img src="img/about/1.jpg" alt="" /></picture>
+							</div>
+						</div>
+						<div class="about-page__gallery">
+							<div class="about-page__image-ibg">
+								<picture><source srcset="img/about/2.webp" type="image/webp"><img src="img/about/2.jpg" alt="" /></picture>
+							</div>
+							<div class="about-page__image-ibg">
+								<picture><source srcset="img/about/3.webp" type="image/webp"><img src="img/about/3.jpg" alt="" /></picture>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__body">
+					<div class="footer__title">
+						<h1>
+							Get
+							<span class="glitch is-glitching" data-text="in Touch.">in Touch.</span>
+						</h1>
+					</div>
+					<div class="footer__subtitle">So that we can talk more about...</div>
+					<div class="footer__seti">
+						<a href="https://vk.com/mmafighter03"><img src="img/footer/vk.svg" alt="" /></a>
+						<a href=""><img src="img/footer/telegramm.svg" alt="" /></a>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+	<!-- 
+<div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+			</div>
+		</div>
+	</div>
+</div>
+ -->
+	<script src="js/app.min.js?_v=20220612215336"></script>
+</body>
+
+</html>
